@@ -1,0 +1,9 @@
+_target_: src.learning.data.DataModule.DataModule
+data_dir: ${paths.data_dir}/cub
+download: True
+batch_size: 256
+dataset: cub
+valid_split: 0.2
+img_size: 224
+photometrics_augmentation: False
+augmentation_severity: 8
