@@ -67,6 +67,17 @@ The quantitative evaluation of the model's explainability relies on the FunnyBir
 ```bash
 python src/evaluation/main_evaluate_funny_birds  --path_sim=path_sim # with the path to the folder where the trained model is saved.
 ```
+
+## Citation
+If you find this code or idea useful, please consider citing our work:
+```
+@article{turbe2024protosvit,
+  title={ProtoS-ViT: Visual foundation models for sparse self-explainable classifications},
+  author={Hugues Turb\'{e} and Mina Bjelogrlic and Gianmarco Mengaldo and Christian Lovis},
+  journal={arXiv:2406.10025},
+  year={2024}
+}
+```
 ## Acknowledgements
 
 The repository architecture was build on the initial template found [here](https://github.com/ashleve/lightning-hydra-template).
